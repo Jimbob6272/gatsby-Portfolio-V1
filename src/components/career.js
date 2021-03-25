@@ -30,8 +30,8 @@ const Career= ({ data }) => {
       <StyledH1>Career</StyledH1>
       <StyledEduContainer>
         <div>
-        <StyledH2>{place}</StyledH2>
-        <StyledH3>{position}</StyledH3>
+        <StyledH2>{position}</StyledH2>
+        <StyledH3>{place}</StyledH3>
         <span>{info}</span>
         <TechList techs={techs} />
         <hr></hr>

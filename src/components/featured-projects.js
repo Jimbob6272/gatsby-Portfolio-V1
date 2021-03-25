@@ -36,7 +36,7 @@ const StyledProjectInfoContainer = styled.section`
 const StyledDescription = styled.section`
   ${contentBox}
   position: relative;
-  padding: 10px;
+  padding: 20px;
 
   > p {
     height: 100%;

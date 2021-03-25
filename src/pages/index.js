@@ -30,10 +30,9 @@ const Index = ({ data }) => {
       <Hero data={heroData} />
       <Facts/>
       <About data={data.about} />
-      <Career data={data.career} />
-      <Education data={data.education} />
       <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="What makes me stand out? " id="features" />
       <FeaturedProjects featured={data.featuredProjects.nodes} />
+      <Career data={data.career} />
       <Contact data={data.contact} />
     </Layout>
   );
