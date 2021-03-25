@@ -19,7 +19,7 @@ const StyledTextSection = styled.section`
   white-space: pre-line;
 `;
 
-const Career= ({ data }) => {
+const Career = ({ data }) => {
   const {
     frontmatter: { place, position, info, techs },
     html,

@@ -33,6 +33,7 @@ const Index = ({ data }) => {
       <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="What makes me stand out? " id="features" />
       <FeaturedProjects featured={data.featuredProjects.nodes} />
       <Career data={data.career} />
+      <Education data={data.education} />
       <Contact data={data.contact} />
     </Layout>
   );
@@ -92,6 +93,7 @@ export const query = graphql`
         place
         position
         info
+        techs
       }
       html
     }

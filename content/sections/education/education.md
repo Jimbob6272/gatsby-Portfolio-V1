@@ -1,19 +1,24 @@
 ---
-place: 'Detroit Zoological Society'
-position: 'Web Developer'
-info: 'sdfsdfsdsfsdfsf'
+place: 'EMS Limited' 
+position: 'Web Development Manager'
+info: 'October 2011 - 2019'
+techs: ['HTML / CSS', 'Magento', 'SEO/SEM', 'Google AdWords', 'Google Analytics', 'Responsive Design', 'EMail Marketing']
+
 ---
+<!-- ![alt DZS Logo](DZ-BW-logo.jpg) -->
+I led site development and web marketing efforts for a growing commercial business looking to expand it's ecommerce capabilities by managing web projects and facilitating team workflow to ensure deadlines are met and aiding in the process where needed. I spearheaded multiple web projects building commercial websites on the Magento and WordPress CMS platforms and utilizing Google analytics to develop marketing strategy for email and ad campaigns.
 
-Lead website migration project converting a drupal 8 site to WordPress consolidating hosting and management resources resulting in a $7,000 per year savings.
+### Highlights
+Start to finish development of XpertSurveyEquipment.com, a Magento e-commerce website that generated more than **$200,000** in sales during its first year.
 
-Spearheaded Google Analytics utilization campaign generating custom reports and presenting information to key stakeholders helping to shape marketing and content strategy increasing social media interactions and raising email open rate by 6%.
+Integrated POS with Magento website, syncing inventory and sales with physical storefront reducing sales tracking errors by **88%**.
 
-Lead initiative to implement structured data into key website to promote visibility across multiple Google services resulting in a 11% increase in traffic to targeted pages.
+Performed SEO and UX/UI improvements raising google page rank and customer time on page by **30%**.
 
-Lead website backup project to consolidating files and services reducing monthly AWS cost by 90%
+Spearheaded email marketing campaigns utilizing A/B testing increasing open rate and overall conversions by **12%**.
 
-Lead Education Outreach project to create an online lesson section by integrating YouTube API, developing page content, & scheduling post providing an outlet for previously under-utilized media.
+Streamlined checkout process by implementing a one-page style checkout that increased sale conversions by **10%**.
 
-Integrated Hotjar analytics into site to provide a clear representation of visitor behavior helping to develop an UI/UX improvement strategy. 
+Developed reusable HTML and CSS code to promote brand consistency and quickly incorporate responsive elements into pages. 
 
-Integrated chat assistant into website reducing call center load by 20% through configuring user paths and monitoring report metrics to shape response triggers.
+Converted digital mockup designs to full functioning websites.
