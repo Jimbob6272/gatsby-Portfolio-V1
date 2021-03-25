@@ -48,11 +48,11 @@ const Facts = () => {
       <StyledH1>Some Interesting Facts</StyledH1>
       <StyledLogoSection>
         <StyledFactNumber>
-          <span className="number">87</span>
+          <span className="number">187</span>
           <span className="fact">Finished Projects</span>
         </StyledFactNumber>
         <StyledFactNumber>
-          <span className="number">68</span>
+          <span className="number">38</span>
           <span className="fact">Happy Customers</span>
         </StyledFactNumber>
         <StyledFactNumber>
