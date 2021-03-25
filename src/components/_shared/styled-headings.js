@@ -36,3 +36,11 @@ export const StyledH2 = styled.h2`
     height: 2px;
   }
 `;
+
+export const StyledH3 = styled.h3`
+  color: var(--primary-color);
+  margin: 0;
+  position: relative;
+
+ 
+`;

@@ -2,6 +2,8 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import About from '../components/about';
+import Education from '../components/education';
+import Career from '../components/career';
 import CardGrid from '../components/card-grid';
 import Contact from '../components/contact';
 import FeaturedProjects from '../components/featured-projects';
@@ -28,9 +30,10 @@ const Index = ({ data }) => {
       <Hero data={heroData} />
       <Facts/>
       <About data={data.about} />
-      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Our Features" id="features" />
+      <Career data={data.career} />
+      <Education data={data.education} />
+      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="What makes me stand out? " id="features" />
       <FeaturedProjects featured={data.featuredProjects.nodes} />
-      <RecentPosts data={data.blog.edges} />
       <Contact data={data.contact} />
     </Layout>
   );
@@ -74,6 +77,25 @@ export const query = graphql`
       }
       html
     }
+    
+    career: markdownRemark(fileAbsolutePath: { regex: "/content/sections/career/" }) {
+      frontmatter {
+        place
+        position
+        info
+        techs
+      }
+      html
+    }
+
+    education: markdownRemark(fileAbsolutePath: { regex: "/content/sections/education/" }) {
+      frontmatter {
+        place
+        position
+        info
+      }
+      html
+    }
 
     cards: markdownRemark(fileAbsolutePath: { regex: "/content/sections/cards/" }) {
       frontmatter {
@@ -88,7 +110,7 @@ export const query = graphql`
     }
 
     featuredProjects: allMarkdownRemark(
-      limit: 3
+      limit: 6
       sort: { order: DESC, fields: frontmatter___date }
       filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: true } } }
     ) {

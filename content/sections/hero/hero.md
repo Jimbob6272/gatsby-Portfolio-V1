@@ -1,10 +1,9 @@
 ---
-introduction: "hey it's me"
-tagline: 'Design. Code. Experiment'
-cta_label: 'View Documentation'
-cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/README.md'
+introduction: "Hey it's me"
+tagline: 'Design. Code. Grow.'
+cta_label: 'View Resume'
+cta_link: 'https://www.michiganmadeweb.com/wp-content/uploads/2020/08/James-Lheureux-Frontend-Developer-Resume.pdf'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+
+ Let me help take your web project to the next level.

@@ -1,29 +1,29 @@
 ---
 cards:
-  - label: Markdown
-    icon: markdown
+  - label: WordPress
+    icon: wordpress
     prefix: fab
-    description: All posts, projects and sections are editable via Markdown files.
-  - label: Customizable
-    icon: palette
+    description: I currently develope and manage 10+ web properties on the WordPress platform through WP-Engine.
+  - label: HTML / CSS
+    icon: file-code
     prefix: fas
-    description: All theme colors and further properties are adjustable via Css Variables.
-  - label: Configurable
-    icon: cogs
+    description: I utilize clean HTML / CSS daily to increase device responsiveness, expand functionality, and promote page accessibility.
+  - label: Project Mgmt
+    icon: layer-group
     prefix: fas
-    description: Navigation and Social links can be easily adjusted via config objects.
-  - label: Projects
-    icon: terminal
+    description: I use management tools such as Trello, MS Teams, and Slack to easily prioritize tasks and share ideas to meet project deadlines. 
+  - label: GitHub 
+    icon: code-branch
     prefix: fas
-    description: Display your most important projects in a dedicated section or list them on the projects sub page.
-  - label: Components
-    icon: react
+    description: I utilize GitHub for version control and website maintenance to update plugins, track issues, and document processes.
+  - label: Analytics
+    icon: google
     prefix: fab
-    description: Plenty of reusable components, mixins and with Emotion styled components are waiting for you.
-  - label: Integrated Blog
-    icon: feather-alt
+    description: I believe in a data-driven approach to planning utilizing Google Analytics and Google Tag Manager to share and track key metrics. 
+  - label: Responsiveness
+    icon: mobile-alt
     prefix: fas
-    description: Everything you need to start your integrated blog is already in place. Just start writing!
+    description: I take a mobile first approach when coding and strive for a consistent experience across all browsers and devices.
 ---
 
-This Card-Grid component allows you to display predefined cards. You could use it like us and display features with it or you could also use it to display the services you provide for your customer. Go ahead and adjust the component to your own needs.
+ Here are some of the key technologies and skills I utilize daily that allow me to successfully contribute to nearly any project.

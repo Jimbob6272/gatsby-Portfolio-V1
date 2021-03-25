@@ -14,6 +14,12 @@ const StyledHeader = styled.header`
   background-color: var(--bg-content-color);
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-left);
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  left: -900px;
+  animation: slide 1s forwards;
+ 
 `;
 const StyledContainer = styled.div`
   display: flex;

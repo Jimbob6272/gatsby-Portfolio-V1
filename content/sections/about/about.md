@@ -1,11 +1,11 @@
 ---
-title: 'The Gatsby starter that makes developer dreams come true!'
+title: 'I strive to be in a constant state of digital growth'
 about_image: './me.jpg'
-techs: ['Gatsby', 'Javascript', 'React', 'GraphQL', 'Emotion', 'Stylus']
+techs: ['HTML / CSS', 'Javascript', 'React', 'GitHub', 'WCAG Compliance', 'SEO']
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas sit amet arcu tincidunt fermentum. Mauris ac nisl nibh. Etiam nunc eros, blandit vel eros laoreet, accumsan lacinia turpis.
+I've spent the last 10 years working on a wide variety of web project contributing where needed.  From building a fully scalable ecommerce site from the ground up to developing content strategies and implementing SEO enhancements.
 
-Phasellus ut sagittis eros. Curabitur quis libero consequat, iaculis dolor sollicitudin, ultricies ligula. Donec sodales sed ex a fermentum. Quisque vitae efficitur odio, non aliquam sapien.
+I am the current lead web developer for a local non profit which has allowed me to utilize my skills and experience to contribute in many ways beyond web development such as: project management, graphic design, web marketing, SEO, and content strategy.
 
-Proin egestas luctus ornare. Donec maximus est lobortis, pharetra dolor in, convallis lorem. Duis ut erat in lectus faucibus iaculis. In tincidunt laoreet ante, vel pellentesque risus lacinia eu.
+I'm always looking for ways to grow and better myself. I enjoy learning new skills and I welcome the opportunity challenge to dive into a new project and contribute where needed. 

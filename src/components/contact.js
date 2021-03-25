@@ -31,7 +31,7 @@ const StyledForm = styled.div`
 const StyledTextSection = styled.section`
   white-space: pre-line;
   width: 100%;
-  max-width: 500px;
+  max-width: 100;
   margin-left: 3px;
 `;
 const StyledSeparator = styled.div`
@@ -64,9 +64,28 @@ const Contact = ({ data }) => {
     <React.Fragment>
       <StyledContactSection id="contact">
         <StyledH1>Contact Details</StyledH1>
+
+
+
+
         <StyledTextSection dangerouslySetInnerHTML={{ __html: html }} />
-        <StyledSeparator />
-        <StyledContacts>
+        {/* <StyledSeparator /> */}
+          <contactForm>
+            <form action="https://getform.io/f/15c323db-bb43-4a70-bfa5-f0b1ed0e1d12" method="POST">
+              <label>Name</label> 
+              <input  type="text" name="name" />
+              <formItem>
+              <label>Email</label> 
+                <input type="email" name="email" />
+                </formItem>
+                <formItem>
+                <label>Message</label> 
+                <input type="text" name="message" />
+                </formItem>
+                <input type="submit"  />
+            </form>
+          </contactForm>
+        {/* <StyledContacts>
           {address && (
             <StyledContainer>
               <Icon icon="building" />
@@ -94,7 +113,7 @@ const Contact = ({ data }) => {
               </StyledFormContainer>
             </StyledContainer>
           )}
-        </StyledContacts>
+        </StyledContacts> */}
       </StyledContactSection>
     </React.Fragment>
   );

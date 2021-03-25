@@ -38,3 +38,65 @@ img
   flex-direction column
   flex-grow 1
   height 100vh
+
+
+// FORM STYLES
+
+contactform 
+  text-align left
+  justify-content center
+  align-items center
+  margin auto
+  padding 2em
+  background var(--bg-content-color);
+  border-radius var(--radius)
+  width 85%
+  max-width 1000px
+
+input, textarea 
+  display block
+  outline none
+  font-size 20px
+  font-family 'Poppins', sans-serif;
+  width 100%
+  margin-bottom 1em
+  background #0e0423
+  border 3px solid var(--primary-color)
+  color white
+  padding 1em
+  text-align left
+  animation-name fade-in
+  animation-duration 3s
+
+
+input[type=submit]
+  background var(--primary-color)
+  width 300px
+  max-width 100%
+  color black
+  padding .5em 2em
+  font-size 1em
+  font-weight bold
+  display inline-block
+  text-align center
+  margin-top 1em
+
+label 
+  font-weight bold
+  font-size 1em
+
+  
+  // ANIMATIONS
+
+@keyframes fade-in{
+    from {opacity:0;}
+    to {opacity:1;}
+}
+  
+@-webkit-keyframes slide {
+    100% {left: 0;}
+}
+
+@keyframes slide {
+    100% {left: 0;}
+}

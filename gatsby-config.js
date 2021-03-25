@@ -1,13 +1,13 @@
 module.exports = {
   pathPrefix: '/gatsby-starter-level-2',
   siteMetadata: {
-    title: 'Level 2',
+    title: 'Jim\'s Portfolio',
     titleTemplate: '%s · Level 2',
     image: '/images/logo.png',
-    author: 'Max Mustermann',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
+    author: 'Jim Lheureux',
+    description: 'An amazing Gatsby site from an amazing front-end developer.',
     url: 'https://knochenmark.github.io',
-    paginationPageSize: 4, // Amount of posts displayed per listing page.
+    paginationPageSize: 8, // Amount of posts displayed per listing page.
   },
   plugins: [
     `gatsby-plugin-stylus`,
@@ -24,6 +24,19 @@ module.exports = {
       options: {
         name: 'projects',
         path: `${__dirname}/content/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'career',
+        path: `${__dirname}/content/sections/career`,
+      },
+    },{
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'education',
+        path: `${__dirname}/content/sections/education`,
       },
     },
     {

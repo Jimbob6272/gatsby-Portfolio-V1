@@ -4,6 +4,4 @@ email: 'maxmustermann@gmail.com'
 address: 'Friesenstr. 123, Berlin, Germany'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy [Link to issues](https://github.com/Knochenmark/gatsby-starter-level-2/issues) tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+Feel free to reach out if you would like to connect or collaborate on your next project.

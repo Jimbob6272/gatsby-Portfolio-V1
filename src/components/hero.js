@@ -9,6 +9,8 @@ import { StyledSection } from './_shared/styled-section';
 const StyledHeroSection = styled(StyledSection)`
   min-height: calc(100vh - 2 * var(--header-height));
   position: relative;
+  animation-name: fade-in;
+  animation-duration: 3s;
 
   ${mq.gt.sm} {
     min-height: calc(100vh - var(--header-height));
@@ -56,7 +58,8 @@ const Hero = ({ data }) => {
       <StyledAuthor>{author}</StyledAuthor>
       <StyledTagline>{tagline}</StyledTagline>
       <StyledDescription dangerouslySetInnerHTML={{ __html: description }} />
-      <ButtonLink label={ctaLabel} link={ctaLink} />
+        <ButtonLink label={ctaLabel} link={ctaLink}/>
+        
       <ScrollIndicator />
     </StyledHeroSection>
   );

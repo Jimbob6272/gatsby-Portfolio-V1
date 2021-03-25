@@ -5,5 +5,22 @@
   "stylusSupremacy.insertColons": false,
   "stylusSupremacy.insertSemicolons": false,
   "stylusSupremacy.reduceMarginAndPaddingValues": true,
-  "stylusSupremacy.selectorSeparator": "\n"
+  "stylusSupremacy.selectorSeparator": "\n",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#1478eb",
+    "activityBar.activeBorder": "#930d4b",
+    "activityBar.background": "#1478eb",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#930d4b",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#1060bc",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#1478eb",
+    "titleBar.activeBackground": "#1060bc",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#1060bc99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#1060bc"
 }

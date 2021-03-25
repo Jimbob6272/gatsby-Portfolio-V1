@@ -8,6 +8,7 @@ import { StyledH2 } from './_shared/styled-headings';
 import { flexEnd } from './_shared/styled-mixins';
 import { StyledTextSection } from './_shared/styled-text-section';
 
+
 const StyledProject = styled.article`
   display: flex;
   flex-direction: column;
