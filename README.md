@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img alt="Level 2" src="./src/assets/Gatsby-portfolio-screenshot.png" width="240" />
+  <img alt="Level 2" src="./src/assets/Gatsby-portfolio-screenshot.png" width="340" />
 </p><p align="center"><a href="https://jimcv.me/" target="_blank">Check it out</a>
 </p>
 <h1 align="center">
