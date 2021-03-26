@@ -68,8 +68,8 @@ const StyledArchiveContainer = styled.div`
   ${flexCenter};
   width: 100%;
   margin-top: 2.5rem;
-  font-size: 20px;
 `;
+
 
 const FeaturedProjects = ({ featured }) => {
   const featuredProjects = featured.map((project, index) => {
@@ -123,7 +123,7 @@ const FeaturedProjects = ({ featured }) => {
       <StyledH1>Featured Projects</StyledH1>
       {featuredProjects}
       <StyledArchiveContainer>
-        <TextLink label="View More Projects" link="/projects" />
+       <TextLink label="View More Projects" link="/projects" />
       </StyledArchiveContainer>
     </StyledSection>
   );
