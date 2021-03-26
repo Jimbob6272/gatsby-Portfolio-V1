@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 date: '2010-03-18'
 title: 'Chevy Ad Graphics'
 cover_image: './images/chevy-ads.jpg'

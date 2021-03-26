@@ -68,6 +68,7 @@ const StyledArchiveContainer = styled.div`
   ${flexCenter};
   width: 100%;
   margin-top: 2.5rem;
+  font-size: 20px;
 `;
 
 const FeaturedProjects = ({ featured }) => {

@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '/gatsby-starter-level-2',
   siteMetadata: {
     title: 'Jim\'s Portfolio',
-    titleTemplate: '%s · Level 2',
+    titleTemplate: '%s · Jim\'s Gatsby Portfolio',
     image: '/images/logo.png',
     author: 'Jim Lheureux',
     description: 'An amazing Gatsby site from an amazing front-end developer.',

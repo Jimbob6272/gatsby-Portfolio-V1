@@ -49,6 +49,8 @@ After completing this project, it's easy to see how this could be used to quickl
 - Increased Number of Featured Projects on Page
 - Education Section
 - Integrated Contact form (GetForm.io)
+- Sliding Animation for NavBar
+- Fade-in Animation for Hero Section
 
 
 

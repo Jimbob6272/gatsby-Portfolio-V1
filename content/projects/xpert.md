@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 date: '2010-03-18'
 title: 'Magento Ecommerce Website'
 cover_image: './images/xpert.jpg'
