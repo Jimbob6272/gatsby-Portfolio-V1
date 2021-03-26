@@ -33,6 +33,7 @@ const StyledTextSection = styled.section`
   width: 100%;
   max-width: 100;
   margin-left: 3px;
+  text-align: center;
 `;
 const StyledSeparator = styled.div`
   height: 1px;

@@ -4,4 +4,4 @@ email: 'maxmustermann@gmail.com'
 address: 'Friesenstr. 123, Berlin, Germany'
 ---
 
-Feel free to reach out if you would like to connect or collaborate on your next project.
+## Please reach out using the form below if would like to connect or collaborate on your next project.
